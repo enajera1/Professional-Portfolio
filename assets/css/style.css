@@ -1,0 +1,269 @@
+:root {
+  --primary-color: #050729; 
+  --secondary-color: #0c15ca;
+  --tertiary-color: #52c8e3;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  color:blanchedalmond;
+}
+
+/* not working??*/
+h1 {
+  text-decoration: none;
+}
+
+body {
+  /* add some later */
+}
+
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  background-color:  ;
+}
+header h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color:aliceblue;
+}
+
+
+header nav {
+  margin: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+
+header nav ul li a:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.hero {
+  height: 400px ;
+  padding: 10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../assets/images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  background-position: ;
+  margin:auto;
+  color:beige;
+  z-index: 9999;
+} 
+
+.code{
+  font-size: 35px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  left:-500px;
+  down:500px;
+  background: none;
+} 
+
+.hero-text {
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background-color: none;
+  font-size: 20px;
+  position:relative;
+  left: 500px;
+  opacity: ;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.flex-item{
+  padding: 5px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+
+.work-info h3 , h4 {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}*/
+/*.coffee-shack {
+  display: flex;
+  justify-content: center;
+  height: ;
+}
+.coffee-shack img{
+  height:;
+  width: ;
+  border: 2px solid aqua ;
+} *//*
+.work {
+  border: ;
+}
+.section-title {
+  padding: 10px 50px;
+  text-align: center ;
+  height: 80px;
+} 
+.coffee-img {
+  background-image: url("../images/coffee-shack.jpg");
+}
+.node-img {
+background-image: url("../images/node.jpg");
+}
+.calc-img {
+  background-image: url("../images/data.jpg");
+}
+.puzzle-img {
+  background-image: url("../images/puzzle.jpg");
+}
+.run-buddy-img {
+  background-image: url("../images/run-buddy.jpg");
+}
+/*.coffee-shack-title {
+  margin: 10% 10%;
+  position: relative;
+  display: flex;
+  justify-content:;
+  background-image: ;
+  border: solid 4px var(--tertiary-color);
+  background-size: cover;
+  background-position: 80%;
+  height: 400px;
+  border-radius: 10px;
+} */
+
+/*.second-row {
+  margin: 0 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% ;
+  justify-content: space-between;
+  position: relative;
+  height: 500px;
+}*/
+
+/*.node {
+  margin: 0 auto;
+  background-image:;
+  height: 300px;
+  width:40%;
+  border: solid 4px var(--tertiary-color);
+  border-radius: 10px;
+}
+
+.calculator {
+  margin: 0 auto;
+  background-image:;
+  height: 300px;
+  width: 40%;
+  border: solid 4px var(--tertiary-color);
+  border-radius: 10px;
+}
+
+.third-row {
+  margin: 0 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% ;
+  justify-content: space-between;
+  position: relative;
+  height: 500px;
+}
+.puzzle {
+  background-image:;
+  height: 300px;
+  width: 40%;
+  border: solid 4px var(--tertiary-color);
+  border-radius: 10px;
+}
+
+.run-buddy {
+  background-size: cover;
+  height: 300px;
+  width: 40%;
+  border: solid 4px var(--tertiary-color);
+  border-radius: 10px;
+}
+
+*/
+
+
+
+/*
+
+@media screen and (max-width: 980px) {
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  header nav ul li a {
+      font-size: 20px;
+  }
+  
+  footer h2, footer div {
+      text-align: center;
+      width: 100%;
+  }
+*/
