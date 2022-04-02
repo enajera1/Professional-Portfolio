@@ -7,9 +7,10 @@
 * { 
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:;
   background-color: var(--primary-color);
   color:blanchedalmond;
+  text-decoration: none;
 }
 
 /* not working??*/
@@ -70,7 +71,7 @@ header nav ul li a:hover {
   padding: 10px 50px;
   display: flex;
   flex-wrap: wrap;
-  background-image: url("../assets/images/hero.jpg");
+  background-image: url(../images/hero.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -109,10 +110,13 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
 
 }
 
 .flex-item{
+ 
+
   padding: 5px;
   margin: 10px;
   line-height: 100px;
@@ -120,19 +124,16 @@ header nav ul li a:hover {
   font-weight: bold;
   font-size: 2em;
   text-align: center;
-  height: 50px;
-  width: 50px;
+ 
 }
 
-.wrap {
-  flex-wrap: wrap;
-}
+
 
 
 .work-info h3 , h4 {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
-}*/
+}
 /*.coffee-shack {
   display: flex;
   justify-content: center;
@@ -150,22 +151,68 @@ header nav ul li a:hover {
   padding: 10px 50px;
   text-align: center ;
   height: 80px;
-} 
+} */
+
+
 .coffee-img {
-  background-image: url("../images/coffee-shack.jpg");
+  background-image: url(../images/coffee-shack.jpg);
+  height: 30%;
+  width: 90%;
+  background-position: 50%;
 }
+
+
+
+
+.coffee-img , .node-img , .calc-img , .puzzle-img , .run-buddy-img {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid var(--tertiary-color);
+  border-radius: 10px;
+  background-size: cover;
+  margin: ;
+  
+}
+
+.node-img , .calc-img , .puzzle-img , .run-buddy-img div {
+  width: 40%;
+  margin: 30px 15px;
+  justify-content;
+}
+
+
 .node-img {
-background-image: url("../images/node.jpg");
+background-image: url(../images/hero.jpg);
+height: 30%;
+
 }
 .calc-img {
-  background-image: url("../images/data.jpg");
+  background-image: url(../images/data.jpg);
+  height: 30%;
+  width: 40%;
 }
 .puzzle-img {
-  background-image: url("../images/puzzle.jpg");
+  background-image: url(../images/puzzle.jpg);
+  height:  30%;
+  width:  40%;
 }
 .run-buddy-img {
-  background-image: url("../images/run-buddy.jpg");
+  background-image: url(../images/run-buddy.jpg);
+  height:  30%;
+  width: 40%;
 }
+ .work {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap:wrap;
+ }
+
+
+
+
+
+
 /*.coffee-shack-title {
   margin: 10% 10%;
   position: relative;
