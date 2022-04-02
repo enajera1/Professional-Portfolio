@@ -66,6 +66,15 @@ header nav ul li a:hover {
   border-radius: 10px;
 }
 
+footer {
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .hero {
   height: 400px ;
   padding: 10px 50px;
@@ -115,24 +124,27 @@ header nav ul li a:hover {
 }
 
 .flex-item{
- 
-
-  padding: 5px;
-  margin: 10px;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
   line-height: 100px;
   color: white;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
- 
+}
+.flex-item h3  h4 {
+  display: block;
 }
 
-
-
-
-.work-info h3 , h4 {
+.work-info h3  h4 {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
+}
+
+.work div {
+  margin: 15px 5%;
+
 }
 /*.coffee-shack {
   display: flex;
@@ -174,7 +186,7 @@ header nav ul li a:hover {
   
 }
 
-.node-img , .calc-img , .puzzle-img , .run-buddy-img div {
+.node-img , .calc-img , .puzzle-img , .run-buddy-img  , div {
   width: 40%;
   margin: 30px 15px;
   justify-content;
@@ -189,17 +201,17 @@ height: 30%;
 .calc-img {
   background-image: url(../images/data.jpg);
   height: 30%;
-  width: 40%;
+  width: 35%;
 }
 .puzzle-img {
   background-image: url(../images/puzzle.jpg);
   height:  30%;
-  width:  40%;
+  width:  35%;
 }
 .run-buddy-img {
   background-image: url(../images/run-buddy.jpg);
   height:  30%;
-  width: 40%;
+  width: 35%;
 }
  .work {
    width: 100%;
@@ -207,6 +219,9 @@ height: 30%;
    display: flex;
    flex-wrap:wrap;
  }
+
+ 
+
 
 
 
