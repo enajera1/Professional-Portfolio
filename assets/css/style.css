@@ -198,25 +198,25 @@ height: auto;
   opacity: 1;
 }
 
-.coffee-img {
+.budget-me-plz-img {
   display: flex;
-  background-image: url(../images/coffee-shack.jpg);
+  background-image: url(../images/budget-me-plz-img.jpg);
   height: 85%;
   background-position: 50%;
   width:100%;
 }
 
-.coffee-img h3 {
+.budget-me-plz-img h3 {
   width: 20%;
 }
 
-#coffee {
+#budget {
   width: 100%;
   align-items: center ;
   justify-content: center;
 }
 
-.coffee-img , .node-img , .wine-pair , .puzzle-img , .run-buddy-img {
+.budget-me-plz-img , .node-img , .wine-pair , .puzzle-img , .run-buddy-img {
   display: flex;
   flex-wrap: wrap;
   border: 4px solid var(--tertiary-color);
